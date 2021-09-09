@@ -1,9 +1,10 @@
 import React from 'react';
-import { Score, Minefield, Button, Rules } from './index';
+import { Score, Minefield, Button, Rules, Message } from './index';
 
 const Game = () => {
     return (
         <>
+            <Message />
             <Score />
             <Minefield />
             <Rules />

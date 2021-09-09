@@ -8,7 +8,7 @@ body {
 }
 .game-header {
   font-size: 18px;
-  height: 120px;
+  height: 110px;
   text-align: center;
   padding: 3px;
   margin-bottom: 9px;
@@ -32,7 +32,7 @@ body {
 }
 
 .mine-revealed {
-  background-color: #dd4a06;
+  background-color: #b93e05;
 }
 
 .btn {
@@ -54,4 +54,8 @@ body {
   margin-top: 9px;
   background: rgb(50, 74, 139);
   color: #fff;
+}
+
+.msg {
+  font-size: 23px;
 }

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import classNames from 'classnames';
+import 'semantic-ui-css/semantic.min.css';
 import { GameContext } from './index';
 import {
     revealNeighbors,
@@ -84,9 +85,9 @@ export const Mine = ({ mine }) => {
             onContextMenu={e => toggleFlagged(e)}
         >
             {shouldShowBomb()
-                ? "💣"
+                ? <i class="bomb icon"></i>
                 : shouldShowFlag()
-                    ? "🚩"
+                    ? <i className="flag checkered icon"></i>
                     : shouldShowNeighbors()
                         ? `${mine.neighbors}`
                         : ""}
