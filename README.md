@@ -35,6 +35,8 @@ Minesweeper is a single-player puzzle video game. The objective of the game is t
 - react
 - react-dom
 - react-scripts
+- semantic-ui-css
+- semantic-ui-react
 - web-vitals
 
 # Getting Started with Create React App
